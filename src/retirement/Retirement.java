@@ -5,9 +5,9 @@ public class Retirement {
 	//身份证号
 	private String IDnumber;
 	
-	//单位编号
+	//单位编
 	private String Unitnumber;
-	
+
 	//批次号
 	private String Lotnumber;
 	
@@ -86,4 +86,7 @@ public class Retirement {
 				+ ", Unitname=" + Unitname + "]";
 	}
 	
+	public static void main(String[] args) {
+		System.out.println("left..");
+	}
 }
