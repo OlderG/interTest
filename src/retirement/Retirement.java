@@ -5,7 +5,7 @@ public class Retirement {
 	//身份证号
 	private String IDnumber;
 	
-	//单位编号
+	//单位编
 	private String Unitnumber;
 
 	//批次号
@@ -89,4 +89,7 @@ public class Retirement {
 		System.out.println("Test right..");
 	}
 	
+	public static void main(String[] args) {
+		System.out.println("Test left..");
+	}
 }
