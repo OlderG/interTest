@@ -7,7 +7,7 @@ public class Retirement {
 	
 	//单位编号
 	private String Unitnumber;
-	
+
 	//批次号
 	private String Lotnumber;
 	
@@ -84,6 +84,9 @@ public class Retirement {
 		return "Retirement [IDnumber=" + IDnumber + ", Unitnumber=" + Unitnumber + ", Lotnumber=" + Lotnumber
 				+ ", Approvaltime=" + Approvaltime + ", Username=" + Username + ", Entitycode=" + Entitycode
 				+ ", Unitname=" + Unitname + "]";
+	}
+	public static void main(String[] args) {
+		System.out.println("Test..");
 	}
 	
 }
